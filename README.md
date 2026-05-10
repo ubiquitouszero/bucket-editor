@@ -8,9 +8,13 @@ A throwaway-style triage editor for daily prioritization. **Single self-containe
 
 ## Why it exists
 
-Most TODO apps want you to commit to them. This is the opposite — a throwaway editor for one day's triage that you can use indefinitely or discard. State lives in your browser, not a service.
+**This is a visualization layer for work, not a system of record.**
 
-The trick: every column ends with an export button. **The HTML isn't the artifact you keep — it's the markdown or AI prompt you paste somewhere else.**
+Jira / Trello / Planner / Linear all want to *be* the source of truth. You maintain the tool, the tool drifts from reality, you spend cycles reconciling. The bucket editor refuses that role on purpose. Your real work lives wherever it already lives — daily notes, a wiki, repos, email, your calendar. This is a transient view onto that work, in a shape that's useful for triage and load-balancing.
+
+The same tool works for a day's horizon or a week's, depending on how you re-seed it.
+
+**The trick:** every column ends with an export button. The HTML isn't the artifact you keep — it's the markdown or AI prompt you paste back into your real system.
 
 ## How to use it
 
